@@ -1,0 +1,12 @@
+user:
+  names:
+    max_length: 50
+  email:
+    max_length: 255
+  pass:
+    min_length: 6
+product:
+  names:
+    max_length: 255
+  description:
+    max_length: 1000
