@@ -35,3 +35,99 @@ en:
     layouts:
       application:
         title: "Ecommerce01"
+  helpers:
+    label:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
+  controller:
+    users_controller:
+      users_controller_info: "Welcome to the Sample App!"
+      error_messages: "the cannot find user"
+    sessions_controller:
+      session_danger: "Invalid email/password combination"
+  layouts:
+    footer:
+      announce_footer_html: "The %{tutorial} by %{book}"
+      tutorial_link: "http://www.railstutorial.org"
+      tutorial_link_detail: "building shop on Rails"
+      book_link: "http://www.michaelhartl.com"
+      book_link_detail: "Michael Hartl"
+      footer_about: "About"
+      footer_Contact: "Contact"
+      footer_link_detail: "News"
+      footer_link: "http://news.railstutorial.org"
+    header:
+      heard_info_heard: "SHOP"
+      heard_info_home: "Home"
+      heard_info_help: "Help"
+      heard_info_login: "Log in"
+      heard_info_user: "Users"
+      heard_info_Profile: "Profile"
+      heard_info_Settings: "Settings"
+      heard_info_logout: "Log out"
+      heard_info_Account: "Account"
+  application_info: "Ruby on Rails Tutorial Sample App"
+  pages:
+    home:
+      heard: "Welcome to the Shop"
+      announce_home_html: "This is the home page for the shop application. %{tutorial} building shop on Rails "
+      home_link: "https://shopee.vn/"
+      home_info_3: "Sign up now!"
+    about:
+      about_title: "About"
+      about_head: "About"
+      about_link_detail_heat: "the"
+      about_link: "http://www.railstutorial.org/"
+      about_link_detail: "Ruby on Rails"
+      about_link_book: "http://www.railstutorial.org/book"
+      about_link_book_detail: "book"
+      about_and: "and"
+      about_link_railstutorial: "http://screencasts.railstutorial.org/"
+      about_link_railstutorial_detail: "about_link_railstutorial"
+      about_detail: "to teach web development with"
+      about_link_rubyrials: "http://rubyonrails.org/"
+      about_link_rubyrials_detail: Ruby on Rails
+      about_detail_1: "This is the sample application for the tutorial."
+      about_info: "Tutorial"
+      about_info_2: "is a"
+    help:
+      help_title: "Help"
+      help_head: "Help"
+      help_info_1: "Get help on the Ruby on Rails Tutorial at the"
+      help_link_1: "http://www.railstutorial.org/help"
+      help_link_info: "Rails Tutorial help section"
+      help_info_2: "To get help on this sample app, see the"
+      help_link_2: href="http://www.railstutorial.org/book"
+      help_link_info_2: "Ruby on Rails Tutorial"
+      help_info_book: "book"
+    contact:
+      contact_title: "Contact"
+      contact_heard: "Contact"
+      contact_info: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_link: "http://www.railstutorial.org/contact"
+      contact_link_info: "contact page"
+    session:
+        email: "Email"
+        password: "Password"
+  shared:
+    form: "The form contains %{error_list}"
+    error:
+      one: "1 error"
+      other: "%{count} errors"
+  users:
+    new:
+      new_info_title: "Sign up"
+      new_info: "Sign up"
+      new_info_1: "This will be a signup page for new users."
+      new_info_2: "Create my account"
+      new_Confirmation: "Confirmation"
+    create:
+      users_controller_info: "Welcome to the Sample App!"
+  sessions:
+    new:
+      title: "Log in"
+      sign_up_html: "New user? %{href}"
+  sign_up_now: "Sign up now!"
